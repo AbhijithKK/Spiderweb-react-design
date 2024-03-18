@@ -1,0 +1,113 @@
+.info-circle-icon {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    top: -1px;
+    transform: scale(3.334);
+  }
+  .wrapper-info-circle {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .notification-icon {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    top: -1px;
+    transform: scale(3.291);
+  }
+  .wrapper-notification {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .muhammad-asad14 {
+    color: var(--color-aquamarine);
+  }
+  .hi-muhammad-asad-container {
+    align-self: stretch;
+    position: relative;
+    filter: drop-shadow(0 0 40px rgba(255, 255, 255, 0.3));
+  }
+  .welcome-back {
+    width: 103px;
+    position: relative;
+    font-weight: 300;
+    display: inline-block;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
+  }
+  .hi-muhammad-asad-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .wrapper-ellipse-1-child {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(2.25);
+  }
+  .wrapper-ellipse-1 {
+    height: 64px;
+    width: 64px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-parent21 {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .frame-header,
+  .wrapper-info-circle-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .wrapper-info-circle-parent {
+    width: 331px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .frame-header {
+    height: 120px;
+    overflow: hidden;
+    flex-shrink: 0;
+    align-items: flex-end;
+    justify-content: center;
+    padding: var(--padding-17xl) var(--padding-xl) var(--padding-xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-family: var(--font-kanit);
+  }
+  @media screen and (max-width: 450px) {
+    .frame-header {
+      gap: 774px 387px;
+    }
+  }

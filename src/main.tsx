@@ -16,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <BrowserRouter>
     <StyledEngineProvider injectFirst>
       <ThemeProvider theme={muiTheme}>
+      <CssBaseline />
         <App/>
         </ThemeProvider>
     </StyledEngineProvider>
