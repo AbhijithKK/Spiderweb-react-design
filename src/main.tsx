@@ -21,5 +21,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         </ThemeProvider>
     </StyledEngineProvider>
   </BrowserRouter>
-  </React.StrictMode>,
+   </React.StrictMode>,
 )

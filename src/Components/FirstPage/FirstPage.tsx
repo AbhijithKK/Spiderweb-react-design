@@ -5,20 +5,19 @@ import {
   MenuItem,
   FormHelperText,
   FormControl,
-  InputAdornment,
   TextField,
-  Icon,
-  IconButton,
+
   Button,
 } from "@mui/material";
 import NavSection from "../NavSection/NavSection";
 import "./FirstPage.css";
 
 const MacBookPro16: FunctionComponent = () => {
-  const onMacBookPro1626Click = useCallback(() => {
-    // Please sync "MacBook Pro 16" - 28" to the project
+    const onMacBookPro1626Click = useCallback(() => {
+     
+    // Navigate('/details')
   }, []);
-
+  
   return (
     <div className="macbook-pro-16-26" onClick={onMacBookPro1626Click}>
       <div className="wrapper-group-1">
