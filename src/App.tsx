@@ -6,6 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import FirstPage from "./Components/FirstPage/FirstPage";
+import SecondPage from "./Components/SecondPage/SecondPage";
 
 function App() {
   const action = useNavigationType();
@@ -46,6 +47,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<FirstPage />} />
+      <Route path="/details" element={<SecondPage />} />
     </Routes>
   );
 }
